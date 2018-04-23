@@ -22,8 +22,6 @@ function destructivelyRemoveFirstKitten(name) {
   return kittens
 }
 
-//above are good
-
 function appendKitten(name) {
   var morekittens = [...kittens, name];
   return morekittens
@@ -34,6 +32,8 @@ function prependKitten(name) {
   return morekittens
   }
   
+//above are good
+
   function removeLastKitten(name) {
     kittens.pop();
     return kittens;
