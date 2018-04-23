@@ -34,9 +34,14 @@ function prependKitten(name) {
   
 //above are good
 
-  function removeFirstKitten(name) {
+  function removeLastKitten(name) {
     const kittens = ["Milo", "Otis", "Garfield"]
     kittens.pop();
     var lessKittens = kittens;
+    return lessKittens;
+  }
+  
+    function removeFirstKitten(name) {
+   var lessKittens = slice
     return lessKittens;
   }
