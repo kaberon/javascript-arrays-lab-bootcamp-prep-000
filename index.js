@@ -34,4 +34,7 @@ function prependKitten(name) {
   return morekittens
   }
   
-  
+  function removeLastKitten(name) {
+    var lessKittenss = 
+    
+  }
